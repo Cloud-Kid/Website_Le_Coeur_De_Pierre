@@ -22,6 +22,7 @@ nav {
     font-family: 'Amatic SC', cursive;
     height: 8vh;
     background-color: var(--main-color);
+    border-bottom: 2px solid white;
 }
 
 .nav-item {

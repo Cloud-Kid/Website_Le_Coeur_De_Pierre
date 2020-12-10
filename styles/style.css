@@ -20,9 +20,9 @@ body {
 
 nav {
     font-family: 'Amatic SC', cursive;
-    height: 8vh;
     background-color: var(--main-color);
     border-bottom: 2px solid white;
+    margin-bottom: 1vh;
 }
 
 .nav-item {
@@ -48,6 +48,7 @@ nav {
     margin: 1rem;
     font-family: 'Amatic SC', cursive;
     border: 0px;
+    background-color: var(--main-color);
 }
 
 .card-title {
@@ -64,9 +65,9 @@ nav {
     background-color: white;
     padding: 40px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    text-align:center;
+    margin-top: 20vh;
+    margin-bottom: 5vh;
+    text-align: center;
     overflow: hidden;
 }
 
@@ -83,6 +84,7 @@ nav {
 
 .rounded-circle {
     margin-bottom: 2rem;
+    width: 20vh;
 }
 
 .fa:before {

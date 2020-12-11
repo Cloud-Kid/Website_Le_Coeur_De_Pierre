@@ -65,8 +65,8 @@ nav {
     background-color: white;
     padding: 40px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    margin-top: 20vh;
-    margin-bottom: 5vh;
+    margin-top: 15vh;
+    margin-bottom: 2vh;
     text-align: center;
     overflow: hidden;
 }
@@ -102,26 +102,36 @@ nav {
     position: relative;
     overflow: hidden;
     width: 100%;
-  }
-  
-  .youtube-video-container::after {
+}
+
+.youtube-video-container::after {
     display: block;
     content: "";
     padding-top: 56.25%;
-  }
-  
-  .youtube-video-container iframe {
+}
+
+.youtube-video-container iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-  }
-
-.name-div {
-    
 }
 
 .container-fluid {
     background-color: var(--main-color);
+}
+
+.italic {
+    font-style: italic;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+@media (min-width: 1200px){
+    .h1, h1 {
+        font-size: 3.5rem;
+    }
 }

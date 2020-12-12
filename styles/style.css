@@ -65,8 +65,8 @@ nav {
     background-color: white;
     padding: 40px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    margin-top: 15vh;
-    margin-bottom: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
     text-align: center;
     overflow: hidden;
 }
@@ -126,6 +126,11 @@ nav {
     font-style: italic;
 }
 
+.contact-icons {
+    width: 50%;
+    margin: auto;
+}
+
 h1 {
     font-size: xx-large;
 }
@@ -133,5 +138,21 @@ h1 {
 @media (min-width: 1200px){
     .h1, h1 {
         font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 575px){
+    .contact-icons {
+        width: 100%;
+    }
+}
+
+@media (max-height: 810px){
+    .contact-card {
+        margin-top: 20vh;
+    }
+
+    p {
+        margin-bottom: 0px;
     }
 }

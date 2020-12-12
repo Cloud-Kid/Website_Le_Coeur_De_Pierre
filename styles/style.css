@@ -145,11 +145,19 @@ h1 {
     .contact-icons {
         width: 100%;
     }
+
+    .youtube-video-container {
+        margin-top: 20vh;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
 }
 
 @media (max-height: 810px){
     .contact-card {
-        margin-top: 20vh;
+        margin-top: 19vh;
     }
 
     p {

@@ -36,6 +36,7 @@ nav {
     -o-background-size: cover;
     background-size: cover;
     background-color: var(--main-color);
+    background-position: bottom;
 }
 
 .movie-section {
